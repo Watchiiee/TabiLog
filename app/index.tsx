@@ -2,8 +2,8 @@ import { Text, View } from "react-native";
 
 export default function HomeScreen() {
   return (
-    <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
-      <Text style={{ fontSize: 24 }}>TabiLog 시작!</Text>
+    <View className="flex-1 bg-red-500 items-center justify-center">
+      <Text className="text-white text-3xl font-bold">NativeWind v4 성공!</Text>
     </View>
   );
 }
